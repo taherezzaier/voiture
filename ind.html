@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>le catalogue des voitures disponibles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        .promo {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+        .promo:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .promo img {
+            width: 100%;
+            height: auto;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        h1 {
+            color: blue;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .action {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .action a {
+            display: inline-block;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .action a.blue {
+            background-color: blue;
+        }
+        .action a.gray {
+            background-color: gray;
+        }
+        .voiture h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>le catalogue des voitures disponibles</h1>
+    </div>
+    <div class="center">
+        <div class="voiture">
+              <h2>renault-clio</h2>
+            <img src="renault-clio.jpg" alt="renault-clio">
+            <div class="action">
+                <a href="#" class="blue">65 TND</a>
+                <a href="#" class="gray">catégorie</a>
+            </div>
+        </div>
+        <div class="voiture">
+              <h2>seat-ibiza</h2>
+            <img src="seat-ibiza.jpg" alt="seat-ibiza">
+            <div class="action">
+                <a href="#" class="blue">75 TND</a>
+                <a href="#" class="gray">catégorie</a>
+            </div>
+        </div>
+    </div>
+    <div class="phone">
+        <h2>phone</h2>
+        <p>Phone: + 216 22 430 500</p>
+    </div>
+</body>
+</html>
